@@ -72,7 +72,7 @@ header {
     width: 40px;
     display: inline-block;
     padding: 13px 11px;
-    border: 1px solid #ccc; }
+    border: 1px solid blue; }
 
 span {
   position: absolute !important;

@@ -47,6 +47,9 @@ header {
   right: 1em;
   top: 0; }
 
+a:hover {
+  background-color: yellow; }
+
 .navigation ul {
   padding: 0; }
 .navigation li {

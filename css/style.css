@@ -18,7 +18,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  background-color: yellow;}
+  background-color: #FFFFCC;}
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -29,6 +29,10 @@ body {
   padding: 0; }
   body.noscript .close-btn, body.noscript .toggle-btn {
     display: none; }
+
+h1 {
+  color: green;
+}
 
 header {
   padding: 0 1em;
@@ -54,7 +58,7 @@ header {
 
 .toggle-btn,
 .close-btn {
-  color: red;
+  color: green;
   text-decoration: none;
   height: 40px;
   width: 40px; }
@@ -64,7 +68,7 @@ header {
     width: 40px;
     display: inline-block;
     padding: 13px 11px;
-    border: 1px solid red; }
+    border: 1px solid green; }
 
 span {
   position: absolute !important;

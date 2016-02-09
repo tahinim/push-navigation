@@ -20,6 +20,7 @@ html {
 
 body{
   font-family: sans-serif;
+  background-color: #FFFFCC ;
   @include zero;
   // Hides close button if there is no js
   &.noscript .close-btn,
@@ -27,10 +28,13 @@ body{
       display: none;
   }
 }
-
+.logo {
+  width: 10%;
+}
 header {
   padding: 0 1em;
   position: relative;
+  color: green;
 }
 
 .toggle-btn{
@@ -38,6 +42,7 @@ header {
   right: 1em;
   top: 0;
 }
+
 
 .navigation{
   ul{

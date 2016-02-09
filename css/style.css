@@ -31,7 +31,10 @@ body {
   body.noscript .close-btn, body.noscript .toggle-btn {
     display: none; }
 
-.logo {
+h1 {
+  display: inline-block; }
+
+.logo img {
   width: 10%; }
 
 header {
